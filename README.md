@@ -70,3 +70,31 @@ created.
 
 12. Start developing the application as needed.
 
+## Screenshots
+
+### Entry Point
+
+Only one entry point should be used for accessing the Module.
+
+![Entry Point](./screenshots/01_entry.png)
+
+### Menu Items
+
+All other menu items should appear inside the Entry Point Menu
+
+![Menu Items](./screenshots/02_menu_items.png)
+
+### Settings
+
+Settings should have their own submenu inside the Entry Point Menu
+
+![Settings](./screenshots/03_settings.png)
+
+### Developing HTML Templates
+
+The HTML Templates `MUST` inherit from the `wagtailadmin/generic/index.html` for templates extending this base template.
+This is to ensure that the templates show the Wagtail Admin Menu consistently across all the templates.
+
+Templates NOT following this rule will not be accepted.
+
+![HTML Template](./screenshots/04_templates.png)
