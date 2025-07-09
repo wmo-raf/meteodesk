@@ -3,7 +3,7 @@
 MeteoDesk is a Web-Based System for production of weather bulletins and forecasts.
 
 `NOTE:` The purpose of this repo is to provide a guide on how to develop Django/Wagtail applications that can be run as
-standalone or integrated into larger projets, like https://github.com/wmo-raf/climweb
+standalone or integrated into larger projects, like https://github.com/wmo-raf/climweb
 
 ## Installation as Standalone System
 
