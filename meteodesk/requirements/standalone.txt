@@ -14,5 +14,5 @@ django-environ==0.12.0
     # via -r standalone.in
 psycopg2==2.9.10
     # via -r standalone.in
-sqlparse==0.5.3
+sqlparse==0.6.0
     # via django
